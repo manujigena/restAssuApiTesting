@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.fluentWait.test.Employee]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.fluentWait.test.Employee">
+        <methods>
+          <include name="validateEmployee"/>
+        </methods>
+      </class> <!-- com.fluentWait.test.Employee -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.fluentWait.test.Employee] -->
